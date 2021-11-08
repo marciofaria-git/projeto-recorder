@@ -1,0 +1,19 @@
+{
+  "name": "recorder",
+  "version": "1.0.0",
+  "description": "Recorder App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start_dev": "SET NODE_ENV = dev && electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
